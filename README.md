@@ -12,7 +12,9 @@ The plug-in checks and handles "unicity" of the file by doing the following:
  
 
 ##Build/Install
-Build with maven. You will do the usual cd path/to/this/repository, then mvn package
+* For easy install, go to the "Releases" tab (https://github.com/ThibArg/nuxeo-storage-file-utils-checkfileisunique/releases), download the .jar and install it in the "plugins" or "bindles" folder of "nxserver" (need to stop server/install the jar/start server.)
+
+* Build with maven. You will do the usual cd path/to/this/repository, then mvn package
 
 
 ##Important
