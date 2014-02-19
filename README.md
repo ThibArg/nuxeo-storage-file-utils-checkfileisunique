@@ -19,6 +19,7 @@ The plug-in checks and handles "unicity" of the file by doing the following:
 
 ##Important
 
+* There is a (small?) problem. When the duplicate is created by drag-drop, the UI in the browser displays an "Unknown server error" alert, and the Document is not created. So, all is good on the business rule point of view, but not on the UI requirement.
 
 * The plug-in implements 2 ways for querying for duplicate files: using NXQL or using SQL. Look at the code to see how it is done. We recommend using the NXQL way since it handles the underlying joins/relations for us ()It is then safer for future version of Nuxeo.)
 
