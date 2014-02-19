@@ -1,0 +1,13 @@
+<component name="org.nuxeo.storage.file.utils.listener.contrib.CheckDocumentFileIsUniqueEvent">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent"
+    point="listener">
+
+    <listener name="checkdocumentfileisuniqueevent" async="false" postCommit="false"
+      class="org.nuxeo.storage.file.utils.CheckDocumentFileIsUniqueEvent" order="100">
+      <event>documentCreated</event>
+      <event>documentModified</event>
+    </listener>
+  </extension>
+
+</component>

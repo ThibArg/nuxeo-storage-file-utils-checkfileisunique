@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Nuxeo
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Version: 1.0
+Bundle-Name: nuxeo-storage-file-utils
+Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.storage.file.utils.Chec
+ kDocumentFileIsUniqueEvent.xml,OSGI-INF/extensions/org.nuxeo.storage.
+ file.utils.CheckDocumentFileIsUniqueOp.xml
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: nuxeo-storage-file-utils
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

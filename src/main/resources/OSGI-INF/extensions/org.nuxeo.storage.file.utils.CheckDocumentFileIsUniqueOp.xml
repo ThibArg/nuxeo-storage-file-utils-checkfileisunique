@@ -1,0 +1,8 @@
+<component name="org.nuxeo.storage.file.utils.CheckDocumentFileIsUniqueOp">
+
+  <extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent"
+    point="operations" >
+      <operation class="org.nuxeo.storage.file.utils.CheckDocumentFileIsUniqueOp" />
+   </extension>
+    
+</component>
